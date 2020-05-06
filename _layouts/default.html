@@ -29,6 +29,7 @@
 		<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 		<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/noscript.css" /></noscript>
+		<script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -43,12 +44,17 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Ohana Networks</h1>
+								<p class="mcserver-status">
+									HCF: <span class="player-count1" data-playercounter-ip="144.217.73.67:25569" data-playercounter-format="{online}/{max}"></span>
+									Hub: <span class="player-count2" data-playercounter-ip="54.39.38.201:25681" data-playercounter-format="{online}/{max}"></span>
+								</p>
 								<p class="things"> Server IP: play.ohana.gg 
 								</p>
 								<p class="things"> Discord: discord.ohana.gg 
 								</p>
 								<p class="things"> TeamSpeak: ts.ohana.gg 
 								</p>
+
 							</div>
 						</div>
 						<nav>

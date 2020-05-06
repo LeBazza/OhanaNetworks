@@ -41,6 +41,17 @@
 
 	}
 
-	.things {
-		margin-bottom: 2px;
-	}
+.things, .mcserver-status, .player-count1, .player-count2 {
+	margin-bottom: 2px;
+}	
+
+.mcserver-status, .player-count1, .player-count2 {
+	font-family: "SFProDisplay-Bold";
+}
+			
+.player-count1, .player-count2 {
+	color: rgb(255, 0, 0);			
+
+}
+			
+
