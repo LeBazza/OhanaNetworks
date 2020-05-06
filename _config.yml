@@ -11,7 +11,7 @@ url: "https://lebazza.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 sass:
-  sass_dir: /OhanaNetworks/assets/sass
+  sass_dir: assets/sass
 
 # Collections
 # Add new panels as HTML files inside the _panels folder
